@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.1.2] - 2023-12-30
+
+- loosened dependency spec for activegraph from ">= 10.0.0" to '>= 11.0'
+
 ## [3.0.0] - 2020-07-15
 
 ### Fixed
