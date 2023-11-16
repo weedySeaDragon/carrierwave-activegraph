@@ -5,9 +5,9 @@ require "carrierwave/active_graph/version"
 Gem::Specification.new do |s|
   s.name        = "carrierwave-activegraph"
   s.version     = CarrierWave::ActiveGraph::VERSION
-  s.authors     = ["Rodrigo Navarro"]
-  s.email       = ["navarro@manapot.com.br"]
-  s.homepage    = "https://github.com/neo4jrb/carrierwave-neo4j"
+  s.authors     = ["Ashley Engelund (weedySeaDragon @ GitHub),  Henning Schumann, Rodrigo Navarro"]
+  s.email       = ["ashley.engelund@gmail.com"]
+  s.homepage    = "https://github.com/weedySeaDragon/carrierwave-activegraph"
   s.summary     = %q{Neo4j support for Carrierwave}
   s.description = %q{Neo4j support for Carrierwave}
 
@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency("activesupport", ">= 6.0" )
   s.add_dependency("activegraph", ">= 10.0.0")
+
   s.add_dependency("carrierwave", ">= 2.1")
   s.add_development_dependency("neo4j-#{ENV['driver'] == 'java' ? 'java' : 'ruby'}-driver", '~> 1.7.4')
   s.add_development_dependency("rspec", "~> 3.0")
