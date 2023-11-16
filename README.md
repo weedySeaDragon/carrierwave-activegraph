@@ -2,12 +2,14 @@
 
 This gem adds support for Neo4j 3.0+ (neo4j.rb 9.6.0+) to CarrierWave 2.1.0+, see the CarrierWave documentation for more detailed usage instructions.
 
+This gem is based on the carrierwave-neo4j gem by Rodrigo Navarro, including work by Henning Schumann (hng @ GitHub).
+
 ### Installation Instructions
 
 Add to your Gemfile:
 
 ```ruby
-gem 'carrierwave-neo4j', '~> 3.0', require: 'carrierwave/active_graph'
+gem 'carrierwave-activegraph', '~> 3.1', require: 'carrierwave/active_graph'
 ```
 
 You can see example usage in `spec/active_graph_realistic_spec.rb` but in brief, you can use it like this:
